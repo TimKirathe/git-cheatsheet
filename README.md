@@ -20,5 +20,5 @@ Code encased in angled brackets is meant to represent what you should replace in
 * `git add .` \- Adds every file & subdirectory in your current directory to git tracking. (Which aren't specified in your .gitignore)
 * `git commit -m "<your-message>"` \- Commits are used as somewhat of a save point for your project. The message is used to describe at what point you are in the project. This will allow every file you have added to git tracking to be pushed to your remote repository.
 * `git push` \- Push current branch to corresponding remote branch in your remote repository.
-* `git push origin <branch-name>` \- Push branch in <branch-name> to origin. Origin is the common and defualt name for your remote repository.
-* `git push --set-upstream origin <branch-name>` \- Same as `git push origin <branch-name>` but tells git to connect your local branch <branch-name> to the remote branch origin/<branch-name> in your remote repository.
+* `git push origin <branch-name>` \- Push branch in <branch-name> to remote repo. Origin is the common and defualt name for your remote repository.
+* `git push --set-upstream origin <branch-name>` \- Pushes local branch <branch-name> to remote repo but tells git to set your local branch to track the remote branch origin/<branch-name> in your remote repository. So that next time you push, all you have to run is `git push`.
